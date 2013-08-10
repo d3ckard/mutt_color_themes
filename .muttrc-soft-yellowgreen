@@ -1,0 +1,42 @@
+
+#-------------------snip-----------------------
+set allow_ansi=yes
+
+color normal        black       color255
+color quoted        color236    color255
+color quoted1       color242    color255
+color quoted2       color246    color255
+color quoted3       color252    color255
+#color quoted4       cyan        color255
+#color quoted5       cyan        color255
+
+color indicator     black	color254
+color message       color28		color254
+color status        color143	color234
+color error         color58     color254
+color attachment    black       color254
+color signature     color252    color254
+color markers       color104	color254
+color tilde         color69		color254
+color search        black       color153
+color tree          color184	color255
+color bold          brightblack color254
+
+color hdrdefault    black     color254
+color header        black     color254 '^From:'
+color header        black     color254 '^Subject:'
+color header        black     color254 '^To:'
+
+color index     color28	color255 ~N
+color index     color100    color254 ~F
+color index     color55     color254 ~T
+color index     color244     color255 ~D
+
+color body      color18     color254 "(http|https|ftp|news|telnet|finger)://[^ \">\t\r\n]*"
+color body      color37		color255 "mailto:[-a-z_0-9.]+ <at> [-a-z_0-9.]+"
+color body      color18     color254 "news:[^ \">\t\r\n]*"
+color body      color112	color254 "[-a-z_0-9.%$]+ <at> [-a-z_0-9.]+\\.[-a-z][-a-z]+"
+color body      color112	color254 "^.*Autoview.*$"
+
+
+

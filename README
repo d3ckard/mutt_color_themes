@@ -1,0 +1,16 @@
+
+mutt_color_themes
+easy on the eyes, limited amount of colors
+
+Simple 256 color themes for mutt
+
+Add to ~/.muttrc 
+
+To initialize terminals to use 256 colors:
+export TERM=xterm-256color
+
+To initialize screen put in .screenrc
+term screen-256color
+
+
+
