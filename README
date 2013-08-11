@@ -6,7 +6,7 @@ https://github.com/d3ckard/mutt_color_themes/wiki/mutt-color-themes-screenshots
 
 Simple 256 color themes for mutt
 
-Add to ~/.muttrc 
+Simply add these color schemes to your own ~/.muttrc 
 
 To initialize terminals to use 256 colors:
 export TERM=xterm-256color
